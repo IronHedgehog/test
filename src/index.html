@@ -7,7 +7,17 @@
     <title>Homework 10</title>
   </head>
   <body>
-    <ul class="post-list"></ul>
+    <div class="wrapper">
+      <form id="create-post">
+        <div>
+          <input type="text" name="title" placeholder="title" />
+          <input type="text" name="author" placeholder="author" />
+          <input type="hidden" name="id" />
+        </div>
+        <textarea name="text" placeholder="you text"></textarea>
+      </form>
+      <ul class="post-list"></ul>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
